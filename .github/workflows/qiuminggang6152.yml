@@ -2,19 +2,24 @@ name: qiuminggang6152
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
+    - cron: '38 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qiuminggang6152
         env:
-          w35: ${{ secrets.w35 }}
+          znqbe3: ${{ secrets.znqbe3 }}
         run: |
-          echo $w35 | jq -r .llc7121 | /bin/bash
-          echo $rpwf4 | jq -r .quhri61992 | /bin/bash
-          echo $daunn48843 | jq -r .l76 | /bin/bash
-          echo $bqbwb19 | jq -r .veln3372 | /bin/bash
+          echo $znqbe3 | jq -r .wnff45 | /bin/bash
+          echo $sz208 | jq -r .dblae4843 | /bin/bash
+          echo $ev64259 | jq -r .hsq76 | /bin/bash
+          echo $ihg52486 | jq -r .zu6 | /bin/bash
+          echo $hovi80365 | jq -r .azfa96 | /bin/bash
+          echo $tfadb00586 | jq -r .b0 | /bin/bash
+          echo $eal29200 | jq -r .d9 | /bin/bash
+          echo $yd161 | jq -r .jtcz7693 | /bin/bash
+          echo $qcemn9618 | jq -r .lj00 | /bin/bash
+          echo $fx6726 | jq -r .f86993 | /bin/bash
 
